@@ -1,0 +1,238 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>【PS插件】Shadowify 2 - 逼真的阴影&amp;模糊插件 | 建筑G</title>
+
+<link rel="shortcut icon" href="https://jianzhugo.github.io/favicon.ico?v=1685353917420">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://jianzhugo.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+    
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            建筑G
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1685353917420"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    【PS插件】Shadowify 2 - 逼真的阴影&amp;模糊插件
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2023-04-17 ·
+                    </time>
+                    
+                        <a href="https://jianzhugo.github.io/tag/1MhCCyeNh/" class="post-tags">
+                            # PS插件
+                        </a>
+                    
+                        <a href="https://jianzhugo.github.io/tag/RpEI1qZBq/" class="post-tags">
+                            # 原创汉化
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <figure data-type="image" tabindex="1"><img src="https://s2.loli.net/2023/04/17/FhWqRxToGz4wXBV.jpg" alt="" loading="lazy"></figure>
+<h2 id="先说点什么">先说点什么</h2>
+<p>非常抱歉啊各位，停更好久了。</p>
+<p>今天和大家分享一款PS里的阴影插件Shadowify，它有两个大版本，分别是Shadowify1和Shadowify2。本质上没有什么不同，主要区别在两点：</p>
+<ol>
+<li>界面的不同，Shadowify2版本针对新版PS的增效工具重新设计，仅支持PS2021及以上版本</li>
+<li>操作更便捷，新版可以根据调整实时显示结果，速度也更快，而且旧版每更改一次设置都要重新生成一次，浪费时间</li>
+</ol>
+<p>很早以前我就汉化好了1的版本，只是一直没有时间来做个分享，今天一起和新版本分享给各位。这里需要强调 一点：<strong>Shadowify1支持PS2018-2020（更低的版也可以用，但有可能会出错）、Shadowify2仅支持PS2021及以上版本，低版PS安装了也不显示。</strong></p>
+<hr>
+<h2 id="插件简单介绍">插件简单介绍</h2>
+<p>使用Shadowify2在Adobe Photoshop中创建不同类型的阴影和逼真的模糊变得前所未有的简单！您所要做的就是拖动几个滑块 - 生成的阴影将根据您的调整进行更新。</p>
+<figure data-type="image" tabindex="2"><img src="https://s2.loli.net/2023/04/17/y7vft9Omls5kVdY.png" alt="" loading="lazy"></figure>
+<p>Shadowify 2 提供 6 个单独的面板，精心组合在一起，以最佳方式简化特定用例。所有这些都带有额外的自定义选项，以使界面适合您的个人工作流程和偏好。当然，您也可以将自己喜欢的设置保存为预设以供以后使用。</p>
+<p>Shadowify的6 个单独面板分别是</p>
+<ul>
+<li>投影</li>
+<li>平面阴影</li>
+<li>透视阴影</li>
+<li>卡片阴影（可控变形）</li>
+<li>智能滤镜模糊（倾斜模糊）</li>
+<li>选择性模糊（平滑模糊远离目标）</li>
+</ul>
+<p>汉化界面如下：<img src="https://s2.loli.net/2023/04/17/9BnvqSLD2PcMF4w.png" alt="" loading="lazy"></p>
+<h2 id="官方图片介绍">官方图片介绍</h2>
+<figure data-type="image" tabindex="3"><img src="https://s2.loli.net/2023/04/17/FhWqRxToGz4wXBV.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://s2.loli.net/2023/04/17/5jNwlL3tGnEeQsW.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://s2.loli.net/2023/04/17/uP56JZnAGUqfxF2.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://s2.loli.net/2023/04/17/Gy27uQi8WBJZvq5.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://s2.loli.net/2023/04/17/zWNos2tXTBnOQ4k.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://s2.loli.net/2023/04/17/mFSrTqNlCbas6op.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://s2.loli.net/2023/04/17/LnAC3HlKoZy28pF.jpg" alt="" loading="lazy"></figure>
+<h2 id="再说两句安装说明">再说两句（安装说明）</h2>
+<p>一定要根据自己的PS版本下载对应的插件版本，且分享文件里面有安装方法，不要再问怎么没用怎么安装了。不懂的可以百度一下。</p>
+<h2 id="下载方式">下载方式</h2>
+<p>链接: https://pan.baidu.com/s/1Llc9qeqMtATt9zpcKo4--A 提取码: jzgo</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://jianzhugo.github.io/post/zhenshicixiu/" class="post-title gt-a-link">
+                    PS刺绣特效插件：Realistic Embroidery
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'Ylc3X9BGqRA0PuhTGN13lBc0-gzGzoHsz',
+		appKey: '14D7JnNOKbQ5BoPycfGPkFQ8',
+		avatar: '',
+		pageSize: 10,
+		recordIp: false,
+		placeholder: '说点什么吧，来都来了',
+		visitor: false,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">记录美好，分享快乐</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        <a href="https://space.bilibili.com/410879947" target="_blank">建筑G</a>
+    </div>
+    <div>
+        Theme <a href="https://github.com/imhanjie/gridea-theme-pure" target="_blank">Pure</a>, Powered by <a
+                href="https://gridea.dev" target="_blank">Gridea</a> | <a href="https://jianzhugo.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+</div>
+
+<script>
+  hljs.highlightAll()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
